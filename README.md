@@ -1,4 +1,4 @@
-# World Class Speed and Aging
+# World Class Speed and Aging Visualization
 
 This repo contains the code to make this visualization:
 
