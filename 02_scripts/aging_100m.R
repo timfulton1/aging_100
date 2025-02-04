@@ -10,7 +10,7 @@ library(showtext)
 # Clean the data ----
 
 # Read raw data file
-m100 <- read.csv("data/100m_all_time_performances.csv")
+m100 <- read.csv("01_data/100m_all_time_performances.csv")
 
 # Remove 'A' character using gsub() function and update to numeric type
 m100$time <- gsub("A", "", m100$time)
@@ -118,7 +118,7 @@ m100_age_plot <- m100_by_age_counts_all %>%
 
 
 # Save the plot ----
-ggsave("plots/100m_age_plot.png",
+ggsave("03_plots/100m_age_plot.png",
        plot = m100_age_plot,
        width = 9,
        height = 4,
